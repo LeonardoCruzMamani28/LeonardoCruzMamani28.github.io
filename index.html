@@ -11,17 +11,26 @@
             color: white;
             display: flex;
             justify-content: center;
-            align-items: flex-start;
+            align-items: center;
             min-height: 100vh;
             padding: 40px 20px;
             margin: 0;
         }
 
+        .foto-fondo {
+         position: absolute;
+         top: 30px;
+         rigth: 30px
+        }
+
+        .foto-fondo img {
+            max-width: 180px;
+            border: 2px solid #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+
+        }
         .container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 20px;
             background: black;
             padding: 30px;
             border-radius: 15px;
@@ -30,12 +39,6 @@
             max-width: 700px;
             width: 100%;
         }
-.foto img {
-    max-width: 200px;
-    height: auto;
-    border: 2px solid #0074D9;
-    borden-radius: 10px;
-}
         h1 {
             color: #1b2a49;
             font-size: 32px;
@@ -53,8 +56,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="foto">
-            <img src="Mono kchondo.JPG">
+        <div class="foto-fondo">
+            <img src="Leonardo Cruz.JPG">
         </div>
         <div class="info">
         <h1>¡Hola! Soy <span style="color:#1b2a49;">Leonardo Cruz Mamani</span></h1>
